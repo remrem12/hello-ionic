@@ -24,3 +24,12 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+
+ion-toolbar ion-button {
+  height: 100%;
+}
+
+.ion-invalid.ion-touched ion-label {
+  color: var(--ion-color-danger) !important;
+}
